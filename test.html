@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Alex is Cool & Sigma</title>
+    <link href="https://fonts.googleapis.com/css2?family=Rock+Salt&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            background-color: #f0f0f0;
+            color: #333;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+
+        header {
+            background-color: #FF6347;
+            color: #fff;
+            text-align: center;
+            padding: 20px 0;
+            font-size: 2.5em;
+            font-family: 'Rock Salt', cursive;
+            letter-spacing: 2px;
+            text-transform: uppercase;
+            animation: fadeIn 1.5s ease-in-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; }
+            to { opacity: 1; }
+        }
+
+        section {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background: linear-gradient(to right, #FFD700, #FF6347);
+            color: white;
+            flex: 1;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .content-container {
+            max-width: 800px;
+            margin: 0 auto;
+            flex-grow: 1;
+        }
+
+        h2 {
+            color: #333;
+            font-size: 1.8em;
+            margin-bottom: 20px;
+            font-family: 'Rock Salt', cursive;
+            letter-spacing: 1px;
+            text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+        }
+
+        .funky-box {
+            background-color: #fff;
+            color: #333;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .funky-box:hover {
+            transform: scale(1.05);
+        }
+
+        .funky-box h3 {
+            font-size: 1.5em;
+            color: #FF6347;
+            text-decoration: underline;
+        }
+
+        .funky-box p {
+            font-size: 1.1em;
+            line-height: 1.6;
+            color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 10px;
+            font-size: 1em;
+        }
+
+        .cool-text {
+            font-family: 'Rock Salt', cursive;
+            font-size: 2.5em;
+            color: #FF6347;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            animation: bounce 1.5s infinite;
+        }
+
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <div class="cool-text">Alex is Cool & Sigma</div>
+    </header>
+
+    <section>
+        <div class="content-container">
+            <h2>About Alex: The Coolest Person Ever</h2>
+            <p>Alex is not just cool, Alex is *THE* embodiment of coolness. From a laid-back vibe to unshakable confidence, Alex sets the standard for what it means to be effortlessly awesome. Whether it’s style, brains, or just pure charisma, Alex reigns supreme.</p>
+
+            <h2>The Sigma Mentality: Walk Your Own Path</h2>
+            <p>Sigmas don’t need a crown to feel like royalty. They’re independent, self-sufficient, and thrive on their own terms. Sigmas don’t follow crowds—they lead by their own example, choosing to define success on their own conditions. It's a mindset that’s way cooler than anything else!</p>
+
+            <div class="funky-box">
+                <h3>Why Sigma is the Way to Go:</h3>
+                <p>Being Sigma means trusting yourself, ignoring the noise, and always staying focused on your goals. It’s all about personal growth and setting your own vibe. Mix that with Alex’s coolness, and you get the perfect combo of confidence and awesomeness.</p>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Alex is Cool & Sigma. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
